@@ -1,9 +1,11 @@
 import * as echarts from 'echarts';
 
-var myChart = echarts.init(document.getElementById('main'))
+// 基于准备好的dom，初始化echarts实例
+var myChart = echarts.init(document.getElementById('main'));
+// 绘制图表
 myChart.setOption({
   title: {
-    text: 'ECharts 入门实例'
+    text: 'ECharts 入门示例'
   },
   tooltip: {},
   xAxis: {
@@ -17,4 +19,4 @@ myChart.setOption({
       data: [5, 20, 36, 10, 10, 20]
     }
   ]
-})
+});
