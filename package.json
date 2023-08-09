@@ -1,0 +1,23 @@
+{
+  "name": "echarts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julyueluo/echarts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julyueluo/echarts/issues"
+  },
+  "homepage": "https://github.com/julyueluo/echarts#readme",
+  "dependencies": {
+    "echarts": "^5.4.3"
+  }
+}
